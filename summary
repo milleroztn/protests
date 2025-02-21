@@ -1,0 +1,122 @@
+Distribution of Countries
+Europe             33 %
+Africa             22 %
+Asia               20 %
+South America       9 %
+MENA                8 %
+North America       4 %
+Central America     4 %
+Oceania           0.3 %  (only 38)
+
+56 percent of total were peaceful.
+26 percent had protestor violence.
+    of those:
+        86 percent were met with state violence (14 not)
+18 percent had state violence to a peaceful protest (total 40 percent had state violence).
+
+
+Only 10 percent of protests led to accomodations by the government.
+    (distribution of violence similar to overall distribution)
+        60 percent were peaceful
+        28 percent had protestor violence
+            of those:  
+                75 percent were met with state violence
+        12 percent had state violence to a peaceful protest
+
+
+
+9 clusters
+
+largest:        1
+accomodated (mixed violence):    4, 5, 6
+
+no accomodations-
+all violence:   0, 2, 7 
+no violence:    1, 3, 8
+
+lowest libdem scores:   2
+highest libdem scores:  1, 7, 6 (and highest HDI) 
+
+libdem scores highly correlated with each other
+HDI is most correlated with Egalitarian score (0.7)
+    correlated with others at 0.6
+
+
+Highest libdem, HDI:  1, 7, 6
+    1: no violence, no accomodations
+    7: all violence, no accomodations
+    6: mixed (26%) violence, all accomodated
+    Most of Europe and South America are in these groups
+
+
+Accomodations: 4, 5, 6
+    smallest groups
+    mixed violence (15-88%)
+
+    6 has high libdem, HDI
+    6 has mostly Europe, then South America
+
+    4 and 5 have mid to low libdem, HDI
+        Mostly Africa/Asia
+    
+    4 is more violent
+    5 is less violent
+        includes biggest chunk of Oceania
+
+
+
+Asia and MENA mostly in 2 or 8
+    low libdem, mid to low HDI
+    no accomodations, regardless of violence
+
+
+No accomodations
+    w/ violence: 207
+    w/o violence: 831
+    both split by libdem/country
+        low- Asia, Africa, MENA
+        med- Africa, Asia, South America
+        high- Europe, South America
+    
+
+
+
+
+6 clusters
+
+largest: 2 4
+smallest: 5 3
+
+
+accomodations: 
+    3 low violence (30%), high libdem
+    5 mid violence (45%), low libdem
+        slightly more state-started violence
+
+no accomodations:
+    2 low violence, high libdem
+        fewer violent protests
+        more often met with violence
+    4 really low violence, mid libdem
+    01 all violence
+        0- protesters slightly more, mid libdem
+        1- state slightly more, low libdem
+    
+
+
+high libdem 23
+    low violence
+    Mostly Europe and South America
+    2 is most of Europe and half of South America
+mid libdem 04
+    no accomodations
+    all or no violence
+    mostly matches general distribution of regions
+    most of Africa and half of Asia
+    4 has a little more Asia
+low libdem 51
+    mid to high violence
+
+
+0
+
