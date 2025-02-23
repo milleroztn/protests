@@ -8,6 +8,10 @@ North America       4 %
 Central America     4 %
 Oceania           0.3 %  (only 38)
 
+libdem scores highly correlated with each other
+HDI is most correlated with Egalitarian score (0.7)
+    correlated with others at 0.6
+
 56 percent of total were peaceful.
 26 percent had protestor violence.
     of those:
@@ -24,68 +28,75 @@ Only 10 percent of protests led to accomodations by the government.
         12 percent had state violence to a peaceful protest
 
 
+By region:
+Overall Africa and MENA have highest rate of violence
+    MENA has average protester violence, but highest state violence
+and Europe has lowest
+    Europe and South America have lower than average rate of protester violence
 
-9 clusters
+Both MENA and South America have higher than average rate of a violent state response
+North America is far less likely to have a protest met with state violence
+MENA has the highest rate of violent state response to peaceful protest
 
-largest:        1
-accomodated (mixed violence):    4, 5, 6
+Oceania has by far the highest rate of state accomodations
+
+
+
+8 clusters
+
+largest:    1
+smallest:   6, 0
+
+accomodated (mixed violence):    3
 
 no accomodations-
-all violence:   0, 2, 7 
-no violence:    1, 3, 8
+all violence:   0, 2, 4, 6
+no violence:    5, 7
+low violence:   1
 
 lowest libdem scores:   2
-highest libdem scores:  1, 7, 6 (and highest HDI) 
-
-libdem scores highly correlated with each other
-HDI is most correlated with Egalitarian score (0.7)
-    correlated with others at 0.6
+highest libdem scores:  1, 6 (and highest HDI) 
 
 
-Highest libdem, HDI:  1, 7, 6
-    1: no violence, no accomodations
-    7: all violence, no accomodations
-    6: mixed (26%) violence, all accomodated
-    Most of Europe and South America are in these groups
+Highest libdem, HDI:  1, 6
+    1: low violence, no accomodations
+    6: all violence, no accomodations
+    Most of Europe and half of South America are in these groups
 
 
-Accomodations: 4, 5, 6
-    smallest groups
-    mixed violence (15-88%)
-
-    6 has high libdem, HDI
-    6 has mostly Europe, then South America
-
-    4 and 5 have mid to low libdem, HDI
-        Mostly Africa/Asia
-    
-    4 is more violent
-    5 is less violent
-        includes biggest chunk of Oceania
-
-
-
-Asia and MENA mostly in 2 or 8
-    low libdem, mid to low HDI
-    no accomodations, regardless of violence
-
+Accomodations: 3
+    mostly matches general distribution of regions
+    mid libdem, HDI
 
 No accomodations
-    w/ violence: 207
-    w/o violence: 831
-    both split by libdem/country
-        low- Asia, Africa, MENA
-        med- Africa, Asia, South America
-        high- Europe, South America
-    
+All violence:
+    high libdem: 6
+    mid libdem: 0
+        low representation of Europe, South America, and MENA
+    low libdem: 2,4
+        2- less Europe, more MENA
+        4- mostly matches general distribution of regions
+
+No violence
+    5- mid libdem, low HDI
+        higher than normal Africa, Oceania
+        No Europe/South America
+    7- mid libdem, high HDI
+        high North America, Asia
+
+MENA in 7, 2, 4
+Africa higher thann normal in 5
+Asia mostly 7, then 4
+North/Central America higher than normal 0, 7
+South America higher than normal 6, 1, 7
+Oceania mostly 3 and 5, higher than normal 0
 
 
 
 
 6 clusters
 
-largest: 2 4
-smallest: 5 3
+more similar sizes
 
 
 accomodations: 
@@ -101,6 +112,7 @@ no accomodations:
     01 all violence
         0- protesters slightly more, mid libdem
         1- state slightly more, low libdem
+            Lots from MENA
     
 
 
@@ -114,9 +126,19 @@ mid libdem 04
     mostly matches general distribution of regions
     most of Africa and half of Asia
     4 has a little more Asia
+    Central America is more highly represented in both
 low libdem 51
     mid to high violence
 
 
-    test
+Most of MENA is in 1 (then 4 and 5)
+Most of Europe is in 2 (then 3)
+Most of Oceania is in 5
+
+Central America is more highly represented in both 0 and 4
+
+Africa, Asia, North America, South America mostly distributed as general
+Africa is more highly represented in 0,5,1: more violence
+Asia is more highly represented 5,1,4
+
 
