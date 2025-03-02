@@ -400,3 +400,6 @@ FodyWeavers.xsd
 *.sln.iml
 
 local/
+
+summary
+dbscan.ipynb
