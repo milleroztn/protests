@@ -7516,6 +7516,23 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">¶</a></h1><ul>
+<li><a href="#data-summary">Data Summary</a><ul>
+<li><a href="#violence-summary">Violence Summary</a></li>
+<li><a href="#accomodation-summary">Accomodation Summary</a></li>
+<li><a href="#violence-by-region">Violence by Region</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Data-Summary">Data Summary<a class="anchor-link" href="#Data-Summary">¶</a></h1>
 </div>
 </div>
@@ -7553,118 +7570,11 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>The Varieties of Democracy variables are different components of measuring each countries liberal democracy level at the time of a protest. For each data point, these five scores tend to be highly correlated (r &gt; 0.90). To limit the number of feature inputs, I combine these into a single measure called <code>libdem</code> which is the average of the five scores. In contrast, the HDI score is much less correlated with these scores and it is left to be included in models as a separate measure. HDI is most correlated with the Egalitarian component (r = 0.70).</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput celltag_ignore_code">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>libdem</th>
-<th>Electoral_Score</th>
-<th>Liberal_Score</th>
-<th>Participatory_Score</th>
-<th>Deliberative_Score</th>
-<th>Egalitarian_Score</th>
-<th>HDI_Score</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>libdem</th>
-<td>1.00</td>
-<td>0.99</td>
-<td>0.99</td>
-<td>0.99</td>
-<td>0.99</td>
-<td>0.98</td>
-<td>0.65</td>
-</tr>
-<tr>
-<th>Electoral_Score</th>
-<td>0.99</td>
-<td>1.00</td>
-<td>0.98</td>
-<td>0.98</td>
-<td>0.96</td>
-<td>0.94</td>
-<td>0.60</td>
-</tr>
-<tr>
-<th>Liberal_Score</th>
-<td>0.99</td>
-<td>0.98</td>
-<td>1.00</td>
-<td>0.98</td>
-<td>0.98</td>
-<td>0.97</td>
-<td>0.65</td>
-</tr>
-<tr>
-<th>Participatory_Score</th>
-<td>0.99</td>
-<td>0.98</td>
-<td>0.98</td>
-<td>1.00</td>
-<td>0.96</td>
-<td>0.95</td>
-<td>0.63</td>
-</tr>
-<tr>
-<th>Deliberative_Score</th>
-<td>0.99</td>
-<td>0.96</td>
-<td>0.98</td>
-<td>0.96</td>
-<td>1.00</td>
-<td>0.95</td>
-<td>0.62</td>
-</tr>
-<tr>
-<th>Egalitarian_Score</th>
-<td>0.98</td>
-<td>0.94</td>
-<td>0.97</td>
-<td>0.95</td>
-<td>0.95</td>
-<td>1.00</td>
-<td>0.71</td>
-</tr>
-<tr>
-<th>HDI_Score</th>
-<td>0.65</td>
-<td>0.60</td>
-<td>0.65</td>
-<td>0.63</td>
-<td>0.62</td>
-<td>0.71</td>
-<td>1.00</td>
-</tr>
-</tbody>
+<table>
+<td>
+<img alt="Correlations" src="./output/images/corrs.jpg"/>
+</td>
 </table>
-</div>
-</div>
 </div>
 </div>
 </div>
@@ -7708,7 +7618,7 @@ a.anchor-link {
 <table>
 <tr>
 <td><img "="" alt="Distribution of Violence, Accomodated" src="./output/images/violence_dist_2.jpg"/></td>
-<td><img alt="Same Picture" src="./misc/same_picture.png" width="300/"/></td>
+<td><img alt="Same Picture" src="./misc/same_picture.png" width="400/"/></td>
 </tr>
 <tr>
 <td></td>
@@ -7724,16 +7634,15 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Violence-by-Region">Violence by Region<a class="anchor-link" href="#Violence-by-Region">¶</a></h2><p>By region:
-Overall Africa and MENA have highest rate of violence
-MENA has average protester violence, but highest state violence
-and Europe has lowest
-Europe and South America have lower than average rate of protester violence</p>
-<p>Both MENA and South America have higher than average rate of a violent state response
-North America is far less likely to have a protest met with state violence
-MENA has the highest rate of violent state response to peaceful protest</p>
-<p><img alt="'Violence by Region'" src="./output/images/violence_region.jpg"/></p>
-<p>Oceania has by far the highest rate of state accomodations</p>
+<h2 id="Violence-by-Region">Violence by Region<a class="anchor-link" href="#Violence-by-Region">¶</a></h2><p>Overall, Africa and MENA have the highest rates of violence in protests. The violence in MENA is exceptional because it consists of a much higher-than-average level of state violence against peaceful protesters. North and Central America, on the other hand, have a higher-than-average rate of protester-only violence.</p>
+<p>Europe and South America have the highest rates of non-violent protests. In Europe, the rates of all types of violence are lower than average; but in South America, the rate of state-only violence is the same as in other regions, despite the overall lower rate of violence. So both MENA and South America have higher-than-average levels of state-only violence.</p>
+<p>Oceania has the lowest rate of state-only violence (and also the highest rate of accomodations).</p>
+<table>
+<tr>
+<td><img alt="Violence by Region" src="./output/images/violence_region3.jpg"/></td>
+<td><img alt="Accomodations" src="./output/images/accomodation2.jpg" width="400/"/></td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -7743,14 +7652,127 @@ MENA has the highest rate of violent state response to peaceful protest</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>'protesterviolence',
-'protesterdemand1', 'protesterdemand2', 'protesterdemand3',
-'protesterdemand4', 'stateresponse1', 'stateresponse2',
-'stateresponse3', 'stateresponse4', 'stateresponse5', 'stateresponse6',
-'stateresponse7', 'Electoral_Score', 'Liberal_Score',
-'Participatory_Score', 'Deliberative_Score', 'Egalitarian_Score',
-'HDI_Score', 'violenceStatus', 'predicted_prob', 'accomodation',
-'stateviolence'</p>
+<h1 id="K-Means-Clustering">K Means Clustering<a class="anchor-link" href="#K-Means-Clustering">¶</a></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>We have 12,652 protests that we want to cluster into groups based on five variables: Region, Violence, Liberal Democracy Score, HDI Score, and whether a protest resulted in state accomodations. Region has eight categories and Violence has four. So we have a total of 15 features by which to group our protests.</p>
+<p>Graphing the within-cluster sum of squares (WCSS) for each possible number of clusters, we can see pretty sharp elbow at 3 clusters.</p>
+<table>
+<tr>
+<td><img alt="How Many K?" src="./output/images/howmanyk.jpg"/></td>
+<td><img alt="Sharp Elbow" src="./misc/elbow.JPG" width="400/"/></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:center;"><p>That elbow is sharp!</p></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>So we fit the three-means clustering model to our data, and we end up with a Silhouette Score of about 0.39. Just over half of our protests (56 percent) fall into the same cluster (labeled <code>0</code> here). Cluster <code>1</code> has exactly its fair share of protests (34 percent), and the rest (10 percent) are on their own in Cluster <code>2</code>.</p>
+<img alt="Distribution of Clusters" src="./output/images/clusters.jpg" width="400/"/>
+<p>Each cluster has an even distribution of years, indicating that whatever makes one protest similar or distinct with this data is relatively consistent since 1990.</p>
+<p>There is, however, some clumping of regions within our clusters. Europe and South America are both underreprestented in Cluster <code>0</code> and overrepresented in Cluster <code>1</code>. In fact, Cluster <code>1</code> is almost exclusively (93 percent) made up of European and South American protests. Cluster <code>0</code> has just a bit less of these two regions in favor of the others, and Cluster <code>2</code> has a distribution that is about the same as the general distribution of regions.</p>
+<p>On the right side, we see these same patterns (Europe and South America are more in Cluster <code>1</code>, less in others). We also see that Oceania is overrepresented in Cluster <code>2</code> whereas all the other regions that have fewer protests in Cluster <code>1</code> tend to have more in Cluster <code>0</code>.</p>
+<p>In summary, Cluster <code>1</code> is a bunch of Europe and South America; everyone else moved a bit from Cluster <code>1</code> to Cluster <code>0</code>, except Oceania moved from Cluster <code>1</code> to Cluster <code>2</code>.</p>
+<table>
+<tr>
+<td><img alt="Distribution of Regions, by Cluster" src="./output/images/regions_cluster.jpg"/></td>
+<td><img alt="Distribution of Clusters, by Region" src="./output/images/clusters_region.jpg"/></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Now we see that Cluster <code>2</code> has all the protests with accomodations. So the distribution of regions for protests that have accomodations matches the overall distribution of regions--except that Oceania tends to have more accomodations (which matches what we already knew about Oceania). We also see that the average Libdem and HDI Scores for this Cluster matches the overal average.</p>
+<p>Cluster <code>0</code> has the lower-than-average Libdem and HDI Scores; Cluster <code>1</code>, the higher.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="Cluster Means" src="./output/images/cluster_means2.jpg"/></p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Finally, we can look at the levels of violence for these clusters. Cluster <code>0</code> has more violence overall; Cluster <code>1</code> has more non-violent protests; and Cluster <code>2</code> has a lower-than-normal percent of state-only violence, and more protester-only violence. This is really the main variable that sets Cluster <code>2</code> apart: more protester-only violence.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="Distribution of Violence, by Cluster" src="./output/images/violence_cluster.jpg"/></p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Clusters-Summary">Clusters Summary<a class="anchor-link" href="#Clusters-Summary">¶</a></h2><p>In summary, we have three clusters of protests:</p>
+<ul>
+<li>Protests that have more violence from both protesters and the state.<ul>
+<li>Protests tend to be more violent when the government has lower Liberal Democracy and HDI Scores.</li>
+<li>These protests tend to happen in regions that are not Europe or South America.</li>
+<li>These are the most common protests.</li>
+</ul>
+</li>
+<li>Protests with less violence.<ul>
+<li>These protests tend to happen in governments with higher Liberal Democracy and HDI Scores, and more often in Europe and South America.</li>
+<li>These protests are more peaceful, but also do not end with state accomodations.</li>
+</ul>
+</li>
+<li>Protests that have state accomodations.<ul>
+<li>These protests tend to have higher levels of protester-only violence.</li>
+<li>These protests tend to happen in all kinds of governments, in all regions--except more often in Oceania.</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>

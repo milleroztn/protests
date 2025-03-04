@@ -1,1 +1,1 @@
-jupyter nbconvert --output-dir='./output' --to html --no-input summary.ipynb
+jupyter nbconvert --to html --no-input summary.ipynb
