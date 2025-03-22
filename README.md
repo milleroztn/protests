@@ -128,6 +128,8 @@ In summary, we have three clusters of protests:
 
 Each cluster has an even distribution of years, indicating that whatever makes one protest similar or distinct with this data is relatively consistent since 1990. 
 
+### Regions
+
 There is, however, some clumping of regions within our clusters. Europe and South America are both underreprestented in Cluster `0` and overrepresented in Cluster `1`. In fact, Cluster `1` is almost exclusively (93 percent) made up of European and South American protests. Cluster `0` has just a bit less of these two regions in favor of the others, and Cluster `2` has a distribution that is about the same as the general distribution of regions. 
 
 On the right side, we see these same patterns (Europe and South America are more in Cluster `1`, less in others). We also see that Oceania is overrepresented in Cluster `2` whereas all the other regions that have fewer protests in Cluster `1` tend to have more in Cluster `0`.
@@ -141,12 +143,15 @@ In summary, Cluster `1` is a bunch of Europe and South America; everyone else mo
   </tr>
 </table>
 
+### Accommodations
+
 Now we see that Cluster `2` has all the protests with accomodations. So the distribution of regions for protests that have accomodations matches the overall distribution of regions--except that Oceania tends to have more accomodations (which matches what we already knew about Oceania). We also see that the average Libdem and HDI Scores for this Cluster matches the overal average.
 
 Cluster `0` has the lower-than-average Libdem and HDI Scores; Cluster `1`, the higher.
 
-
 <img src="./output/images/cluster_means2.jpg" alt="Cluster Means"/>
+
+### Violence
 
 Finally, we can look at the levels of violence for these clusters. Cluster `0` has more violence overall; Cluster `1` has more non-violent protests; and Cluster `2` has a lower-than-normal percent of state-only violence, and more protester-only violence. This is really the main variable that sets Cluster `2` apart: more protester-only violence.
 
