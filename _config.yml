@@ -3,5 +3,3 @@ plugins:
 - jekyll-remote-theme
 
 title: "Protests Against Government"
-sass:
-  style: expanded
