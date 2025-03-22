@@ -3,6 +3,8 @@
     - [Violence Summary](#violence-summary)
     - [Accomodation Summary](#accomodation-summary)
     - [Violence by Region](#violence-by-region)
+- [K Means Clustering](#k-means-clustering)
+    - [Clusters Summary](#clusters-summary)
 
 # Data Summary
 
