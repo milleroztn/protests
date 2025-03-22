@@ -402,4 +402,5 @@ FodyWeavers.xsd
 local/
 
 summary
+summary.ipynb
 dbscan.ipynb
