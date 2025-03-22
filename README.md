@@ -25,7 +25,7 @@ The plurality of protests (33 percent) are from Europe; only 38 are from Oceania
     <td style="text-align:center;"><p>(relevant xkcd comic)</p></td>
   </tr>
     <tr>
-    <td><img src="https://github.com/milleroztn/protests/blob/main/output/images/regions_dist.jpg?raw=true" alt="Distribution of Regions""/></td>
+    <td><img src="https://github.com/milleroztn/protests/blob/main/output/images/regions_dist.jpg?raw=true" alt="Distribution of Regions"/></td>
     <td><img src="https://imgs.xkcd.com/comics/heatmap.png" alt="xkcd: heatmap"/></td>
   </tr>
 </table>
@@ -64,7 +64,7 @@ To examine state response patterns, I create an indicator `stateviolence`, which
 
 <table>
   <tr>
-    <td><img src="https://github.com/milleroztn/protests/blob/main/output/images/violence_dist_2.jpg?raw=true" alt="Distribution of Violence, Accomodated""/></td>
+    <td><img src="./output/images/violence_dist_2.jpg" alt="Distribution of Violence, Accomodated"/></td>
     <td><img src="./misc/same_picture.png" alt="Same Picture" width=400/></td>
   </tr>
   <tr>
