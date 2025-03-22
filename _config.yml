@@ -1,2 +1,4 @@
 theme: jekyll-theme-modernist
 title: "Protests Against Government"
+sass:
+  style: expanded
