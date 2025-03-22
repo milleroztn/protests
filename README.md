@@ -5,6 +5,7 @@
     - [Violence by Region](#violence-by-region)
 - [K Means Clustering](#k-means-clustering)
     - [Clusters Summary](#clusters-summary)
+    - [Clusters Detail](#clusters-detail)
 
 # Data Summary
 
@@ -63,7 +64,7 @@ To examine state response patterns, I create an indicator `stateviolence`, which
 
 <table>
   <tr>
-    <td><img src="./output/images/violence_dist_2.jpg" alt="Distribution of Violence, Accomodated""/></td>
+    <td><img src="https://github.com/milleroztn/protests/blob/main/output/images/violence_dist_2.jpg?raw=true" alt="Distribution of Violence, Accomodated""/></td>
     <td><img src="./misc/same_picture.png" alt="Same Picture" width=400/></td>
   </tr>
   <tr>
@@ -108,6 +109,22 @@ So we fit the three-means clustering model to our data, and we end up with a Sil
 
 <img src="./output/images/clusters.jpg" alt="Distribution of Clusters" width=400/>
 
+## Clusters Summary
+
+In summary, we have three clusters of protests:
+- Protests that have more violence from both protesters and the state.
+    - Protests tend to be more violent when the government has lower Liberal Democracy and HDI Scores.
+    - These protests tend to happen in regions that are not Europe or South America.
+    - These are the most common protests.
+- Protests with less violence.
+    - These protests tend to happen in governments with higher Liberal Democracy and HDI Scores, and more often in Europe and South America.
+    - These protests are more peaceful, but also do not end with state accomodations.
+- Protests that have state accomodations.
+    - These protests tend to have higher levels of protester-only violence. 
+    - These protests tend to happen in all kinds of governments, in all regions--except more often in Oceania.
+ 
+## Clusters Detail
+
 Each cluster has an even distribution of years, indicating that whatever makes one protest similar or distinct with this data is relatively consistent since 1990. 
 
 There is, however, some clumping of regions within our clusters. Europe and South America are both underreprestented in Cluster `0` and overrepresented in Cluster `1`. In fact, Cluster `1` is almost exclusively (93 percent) made up of European and South American protests. Cluster `0` has just a bit less of these two regions in favor of the others, and Cluster `2` has a distribution that is about the same as the general distribution of regions. 
@@ -134,19 +151,7 @@ Finally, we can look at the levels of violence for these clusters. Cluster `0` h
 
 <img src="./output/images/violence_cluster.jpg" alt="Distribution of Violence, by Cluster"/>
 
-## Clusters Summary
 
-In summary, we have three clusters of protests:
-- Protests that have more violence from both protesters and the state.
-    - Protests tend to be more violent when the government has lower Liberal Democracy and HDI Scores.
-    - These protests tend to happen in regions that are not Europe or South America.
-    - These are the most common protests.
-- Protests with less violence.
-    - These protests tend to happen in governments with higher Liberal Democracy and HDI Scores, and more often in Europe and South America.
-    - These protests are more peaceful, but also do not end with state accomodations.
-- Protests that have state accomodations.
-    - These protests tend to have higher levels of protester-only violence. 
-    - These protests tend to happen in all kinds of governments, in all regions--except more often in Oceania.
 
 
 
