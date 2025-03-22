@@ -6,6 +6,9 @@
 - [K Means Clustering](#k-means-clustering)
     - [Clusters Summary](#clusters-summary)
     - [Clusters Detail](#clusters-detail)
+        - [Regions](#regions)
+        - [Accommodations](#accomodations)
+        - [Violence](#violence)
 
 # Data Summary
 
