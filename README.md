@@ -24,7 +24,7 @@ The plurality of protests (33 percent) are from Europe; only 38 are from Oceania
     <td style="text-align:center;"><p>(relevant xkcd comic)</p></td>
   </tr>
     <tr>
-    <td><img src="./output/images/regions_dist.jpg" alt="Distribution of Regions""/></td>
+    <td><img src="https://github.com/milleroztn/protests/tree/main/output/images/regions_dist.jpg" alt="Distribution of Regions""/></td>
     <td><img src="https://imgs.xkcd.com/comics/heatmap.png" alt="xkcd: heatmap"/></td>
   </tr>
 </table>
