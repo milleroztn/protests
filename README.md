@@ -50,8 +50,10 @@ To examine state response patterns, I create an indicator `stateviolence`, which
  - 18 percent of protests were peaceful protests that were met with state violence. A total of 40 percent had state violence, and only about half of these were in response to protester violence.
 
  !['Distribution of Violence'](./output/images/violence_dist.jpg)
+ 
 
  ## Accomodation Summary
+
 
  - Only 10 percent of protests led to accomodations by the government.
 
